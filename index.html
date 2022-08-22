@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <main>
+        <nav class="navbar">
+            <h1>Pradeep Rawat Portfolio</h1>
+            <div class="navigationMenu">
+                <a href="#aboutMe">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#connectForm">Let's Connect</a>
+            </div>
+        </nav>
+
+        <section class="heroSection">
+        <img class="profileImage" src="images/profile1.png" alt="">
+        <div class="heroDetails">
+            <h1>Pradeep Rawat</h1>
+            <h3>Blockchain Application Developer | MERN Developer | Full Stack Web Developer</h3>
+        </div>
+        </section>
+        <section class="aboutMe" id="aboutMe">
+            <h1>Objective</h1>
+            <p>Seeking an opportunity wherein my Programming skills in C++ and Java further strengthened by my interpersonal skills and problem-solving aptitude can be put to optimal use thereby synchronizing my goals with organizational objectives </p>
+        </section>
+        <section class="skillsAndProjects" >
+            <div class="skills" id="skills">
+                <h1 class="cardHeading">Skills</h1>
+                <img src="images/blockchain.svg" alt="" title="Blockchain">
+                <img src="images/reactjs.svg" alt="" title="React.js">
+                <img src="images/nodejs.svg" alt="" title="Node.js">
+                <img src="images/mongodb.svg" alt="" title="MongoDB">
+                <img src="images/express.svg" alt="" title="Express">
+                <img src="images/js.svg" alt="" title="JavaScript">
+                <img src="images/html.svg" alt="" title="html">
+                <img src="images/css.svg" alt="" title="CSS">
+            </div>
+            <div class="projects" id="projects">
+                <h1 class="cardHeading">Projects</h1>
+                
+                <div class="projectContainer">
+                    <img id="img1" src="images/project1.png" alt="">
+                    <div class="projectDescription">
+                    <h4>GoSwift</h4>
+                    <p>GoSwift is a website which I created for my classmates so that they can get notes and video lecture at one place and also can download.
+                        I used HTML and CSS to develop the front end.</p>
+                </div>
+              </div>
+                <div class="projectContainer">
+                    <img id="img2" src="images/encrypt.svg" alt="">
+                    <div class="projectDescription">
+                    <h4>EndEncrypt</h4>
+                    <p>I developed this software which can encrypt our data like images, documents, videos etc. so that we can hide our private data from others.
+                        I used JAVA to develop this project.</p>
+                </div>
+              </div>
+
+            </div>
+        </section>
+        <section class="contactForm" id="connectForm">
+            <h1>Let's Connect!</h1>
+            <div class="formGroup">
+                <label for="name">Enter Full Name</label> <br>
+                <input type="text" id="name" placeholder="Full Name" />
+            </div>
+            <div class="formGroup">
+                <label for="email">Email</label> <br>
+                <input type="text" id="email" placeholder="Email" />
+            </div>
+            <div class="formGroup">
+                <label for="message">Message</label> <br>
+                <textarea name="w3review" id="message" cols="50" rows="4" placeholder="Type your message here..."></textarea>
+            </div>
+            <button class="submitButton" onclick={submit()}>Connect</button>
+        </section>
+
+    </main>
+</body>
+</html>
