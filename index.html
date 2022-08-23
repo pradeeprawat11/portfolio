@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Pradeep Rawat</title>
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
@@ -15,7 +16,7 @@
                 <a href="#aboutMe">About Me</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
-                <a href="#connectForm">Let's Connect</a>
+                <a href="https://www.linkedin.com/in/pradeep-rawat-53a121216/" target="_blank">Let's Connect</a>
             </div>
         </nav>
 
@@ -28,7 +29,7 @@
         </section>
         <section class="aboutMe" id="aboutMe">
             <h1>Objective</h1>
-            <p>Seeking an opportunity wherein my Programming skills in C++ and Java further strengthened by my interpersonal skills and problem-solving aptitude can be put to optimal use thereby synchronizing my goals with organizational objectives </p>
+            <p>Seeking an opportunity wherein my Programming skills in Web Development and Blockchain further strengthened by my interpersonal skills and problem-solving aptitude can be put to optimal use thereby synchronizing my goals with organizational objectives </p>
         </section>
         <section class="skillsAndProjects" >
             <div class="skills" id="skills">
@@ -43,22 +44,24 @@
                 <img src="images/css.svg" alt="" title="CSS">
             </div>
             <div class="projects" id="projects">
-                <h1 class="cardHeading">Projects</h1>
+                <h1 class="cardHeading">Projects</s></h1>
                 
                 <div class="projectContainer">
-                    <img id="img1" src="images/project1.png" alt="">
+                    <img id="img1" src="images/memoriesLogo.png" alt="">
+                    <a href="http://sharememories.rf.gd" target="_blank">
                     <div class="projectDescription">
-                    <h4>GoSwift</h4>
-                    <p>GoSwift is a website which I created for my classmates so that they can get notes and video lecture at one place and also can download.
-                        I used HTML and CSS to develop the front end.</p>
+                        <h4>Memories</h4>
+                    </a>
+                    <p>Memories is a Social Media Application where users can create their account to post the memories also like and comment on others memories </p>
                 </div>
               </div>
                 <div class="projectContainer">
-                    <img id="img2" src="images/encrypt.svg" alt="">
+                    <img id="img2" src="images/KryptLogo.png" alt="">
                     <div class="projectDescription">
-                    <h4>EndEncrypt</h4>
-                    <p>I developed this software which can encrypt our data like images, documents, videos etc. so that we can hide our private data from others.
-                        I used JAVA to develop this project.</p>
+                        <a href="http://krypt.rf.gd" target="_blank">
+                    <h4>Krypt</h4>
+                  </a>
+                    <p>Krypt is a blockchain application having the functionality of transfering Ethers by connecting the MetaMask wallet</p>
                 </div>
               </div>
 
@@ -78,7 +81,10 @@
                 <label for="message">Message</label> <br>
                 <textarea name="w3review" id="message" cols="50" rows="4" placeholder="Type your message here..."></textarea>
             </div>
-            <button class="submitButton" onclick={submit()}>Connect</button>
+            <a href="mailto:pradeeprawat1717@gmail.com">
+                
+            <button  class="submitButton">Connect</button>
+        </a>
         </section>
 
     </main>
